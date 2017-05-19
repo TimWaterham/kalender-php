@@ -1,7 +1,7 @@
 <div class="container">
     <form action="<?= URL ?>birthday/createSave" method="post">
     
-        <input type="text" name="person" required placeholder="john">
+        <input type="text" name="person" required placeholder="Name...">
         <select name="day">
             <option value="1" >1</option>
             <option value="2" >2</option>
