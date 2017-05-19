@@ -40,7 +40,7 @@ function getBirthdays() //Get all birthdays
 	return $query->fetchAll();
 }
 
-function createBirthday() //Create
+function createBirthday() //Create Birthday
 {
     $person = isset($_POST['person']) ? $_POST['person'] : null;
     $day = isset($_POST['day']) ? $_POST['day'] : null;
